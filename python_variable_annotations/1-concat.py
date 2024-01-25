@@ -3,13 +3,15 @@
     Handle of string with annotations
 """
 
+
 def concat(str1: str, str2: str) -> str:
     """
         Args:
-            str1: the first string parameter
-            str1: the second string parameter
+            str1: The first string parameter
+            str1: The second string parameter
 
-        return:
-            concatened string
+        Return:
+            Concatenated string
     """
+
     return (str1 + str2)
