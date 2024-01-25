@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-    A function that recieve a float n
+    Truncate float to integer
 """
+
 
 def floor(n: float) -> int:
     """
-        Args: 
+        Args:
             n: float number
 
         Return:
