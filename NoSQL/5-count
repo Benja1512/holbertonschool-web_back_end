@@ -1,0 +1,2 @@
+// s acript that displays the number of documents in the collection school
+bd.school.count()
