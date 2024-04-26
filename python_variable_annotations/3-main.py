@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-''' Description:takes a float n as argument and returns the string
-    representation of the float.
-    Arguments: n: float
-'''
+to_str = __import__('3-to_str').to_str
 
-
-def to_str(n: float) -> str:
-    ''' Return n as a string. '''
-    return str(n)
+pi_str = to_str(3.14)
+print(pi_str == str(3.14))
+print(to_str.__annotations__)
+print("to_str(3.14) returns {} which is a {}".format(pi_str, type(pi_str)))
