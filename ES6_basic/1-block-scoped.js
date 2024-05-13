@@ -1,11 +1,12 @@
 export default function taskBlock(trueOrFalse) {
-  let task = false; // Usando 'let' para permitir reasignaciones
-  let task2 = true; // Usando 'let' para permitir reasignaciones
+  const task = false;
+  const task2 = true;
 
   if (trueOrFalse) {
-    task = true; // Modificando la variable 'task' directamente
-    task2 = false; // Modificando la variable 'task2' directamente
+    /*eslint-disable*/
+      const task = true;
+      const task2 = false;
+    }
+  
+    return [task, task2];
   }
-
-  return [task, task2];
-}
